@@ -1,9 +1,13 @@
-#in cmd
-set FLASK_APP=node_server.py
-flask run --port 8000
+#in cmd for localhost
 
-#another cmd
-python run_app.py
+1) set FLASK_APP=node_server.py
+2) flask run --port 8000
+
+#in another cmd
+
+1) python run_app.py
+
+#for online sharing
 
 ngrok.exe http 5000
 
